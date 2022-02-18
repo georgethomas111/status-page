@@ -8,8 +8,9 @@ Change wrangler.toml to have your account that has access to Durable Objects.
 
 Install wrangler https://developers.cloudflare.com/workers/cli-wrangler/install-update if you don't have it installed already. Update wrangler to something greater than 1.19.3 as durable objects support does not work with previous versions.
 
+```
 $ wrangler publish --new-class Status
-
+```
 
 This will ensure the new class which ties to the durable object gets saved.
  
